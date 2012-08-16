@@ -8,7 +8,9 @@ namespace Depuracao
     {
         static void Main(string[] args)
         {
-
+            int numero = 0;
+            Console.WriteLine("o numero escolhido e: {0}", numero);
+            Console.Read();
             
 
         }
