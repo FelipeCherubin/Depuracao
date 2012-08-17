@@ -14,7 +14,7 @@ namespace Depuracao
 
         static float Dividir(int n, float d)
         {
-            return n % d;
+            return n / d;
         }
 
         static void Main(string[] args)
@@ -36,8 +36,16 @@ namespace Depuracao
  
             }
            
-            
-            Console.Read();
+            int[] vetor = new int[3];
+            vetor[0] = int.Parse(Console.ReadLine());
+            vetor[1] = int.Parse(Console.ReadLine());
+            vetor[2] = int.Parse(Console.ReadLine());
+            for (int i = 1; i < vetor.Length; i++)
+            {
+                Console.WriteLine("{0}", vetor[i]);
+            }
+
+                Console.Read();
             
 
         }
