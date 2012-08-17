@@ -24,8 +24,8 @@ namespace Depuracao
             Console.WriteLine("o numero escolhido e: {0}", numero);
             numero = Mudar(numero);
             Console.WriteLine("o numero modificado e: {0}", numero);
-            int denominador = 0;
-            denominador = int.Parse(Console.ReadLine());
+            float denominador = 0;
+            denominador = float.Parse(Console.ReadLine());
             if (denominador == 0)
             {
                 Console.WriteLine("numero nao pode ser dividido por 0");
