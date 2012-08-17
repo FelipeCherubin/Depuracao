@@ -11,6 +11,12 @@ namespace Depuracao
             n = n + 1;
             return n;
         }
+
+        static float Dividir(int n, float d)
+        {
+            return n % d;
+        }
+
         static void Main(string[] args)
         {
             int numero = 0;
@@ -18,6 +24,19 @@ namespace Depuracao
             Console.WriteLine("o numero escolhido e: {0}", numero);
             numero = Mudar(numero);
             Console.WriteLine("o numero modificado e: {0}", numero);
+            int denominador = 0;
+            denominador = int.Parse(Console.ReadLine());
+            if (denominador == 0)
+            {
+                Console.WriteLine("numero nao pode ser dividido por 0");
+            }
+            else
+            {
+                Console.WriteLine("o quociente entre {0} e {1} é : {2}", numero, denominador, Dividir(numero, denominador));
+ 
+            }
+           
+            
             Console.Read();
             
 
