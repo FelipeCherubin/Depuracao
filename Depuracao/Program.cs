@@ -40,10 +40,12 @@ namespace Depuracao
             vetor[0] = int.Parse(Console.ReadLine());
             vetor[1] = int.Parse(Console.ReadLine());
             vetor[2] = int.Parse(Console.ReadLine());
-            for (int i = 1; i < vetor.Length; i++)
+            for (int i = 0; i < vetor.Length; i++)
             {
                 Console.WriteLine("{0}", vetor[i]);
             }
+         
+            
 
                 Console.Read();
             
