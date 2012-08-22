@@ -42,7 +42,7 @@ namespace Depuracao
             vetor[2] = int.Parse(Console.ReadLine());
             for (int i = 0; i < vetor.Length; i++)
             {
-                Console.WriteLine("{0}", vetor[i]);
+                Console.WriteLine("os numeros de vetor  {0}", vetor[i]);
             }
          
             
